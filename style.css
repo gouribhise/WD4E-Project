@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: white;
+   }
+
+   h2{
+    color:#9C0D38;
+   }
+
+   .col-gap {
+    column-gap: 2rem;
+  }
+  
+   .navbar,.bg-dark{
+    background-color: #9C0D38 !important;
+   }
+  
+    .text>h4{
+      font-size: 2em;
+    }
+  
+   .nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+  }
+
+  .navbar-nav>li{
+    margin-right:40px;
+    
+  }
+  .fa-solid{
+    color:white;
+  }
+  
+  .fa-solid:hover{
+    color:#DC9E82;
+  }
+  
+  
+  .active, .nav-link:active {
+    background-color: #DC9E82;
+   
+    
+    border-radius: 10px;
+  }
+ 
+  
+  .nav-pills>.nav-item>.nav-link{
+    color: black;
+  }
+  
+  
+  /***portfolio****/
+  
+  #front,#full,#android,#graphics{
+  display: none;
+  }
+  
+  
+  /****Service***/
+  .service{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .service>i{
+    color:#9C0D38
+  }
+  .service-info{
+    margin-left: 5%;
+    
+  }
+
+  .service-info>h3{
+    color:#DC9E82;
+  }
+  .fa-object-group,.fa-database,.fa-headset,.fa-pen{
+    color:black;
+  }
+
+  .btn{
+    background-color: #9C0D38
+  }
+
+  label{
+    font-weight:500
+  }
