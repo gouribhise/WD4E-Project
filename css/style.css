@@ -9,6 +9,46 @@ body{
     color:#9C0D38;
    }
 
+   /**index**/
+  
+#name{
+margin-top: 4%;
+}
+
+.console-container {  
+font-family:Khula;
+font-size:2em;
+text-align:center;
+height:400px;
+margin-top: 10%;
+width:60%;
+display:block;
+position:absolute; 
+top:0;
+bottom:0;
+left:19%;
+right:0;
+
+
+}
+.console-underscore {
+display:inline-block;
+position:relative;
+top:-0.14em;
+left:10px;
+}
+
+.nav-item{
+display: flex;
+align-items: center;
+}
+.fa-solid{
+color:gray;
+}
+
+
+   /**end of index**/
+
    .col-gap {
     column-gap: 2rem;
   }
@@ -114,18 +154,38 @@ body{
   footer{
     background-color: #9C0D38;
     color:white;
+padding-top:10px;
+margin-top:20px;
     text-align: center;
     font-weight:bold;
 
   }
-
+ #bf_ft{
+  margin-bottom: 5%;
+ }
   .footlinks{
     display: none;
   }
   @media only screen and (max-width: 600px) {
-body{
-  background-color: red;
-}
+    #name{
+       margin-left:-10%;
+    }
+    .console-container {  
+      font-family:Khula;
+      font-size:2em;
+      text-align:center;
+      height:400px;
+      margin-top: 30%;
+      width:60%;
+      display:block;
+      position:absolute; 
+      top:0;
+      bottom:0;
+      left:19%;
+      right:0;
+      
+      
+      }
 .outlinks{
   display: none;
 }

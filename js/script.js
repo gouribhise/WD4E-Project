@@ -15,7 +15,7 @@ var design=document.getElementById('graphics-projects')
 
  
  function consoleText(words, id, colors) {
-  console.log('inside consoletext')
+ 
   if (colors === undefined) colors = ['#fff'];
   var visible = true;
   var con = document.getElementById('console');
@@ -124,3 +124,12 @@ frontw.style.display="none"
 mobile.style.display="none"
 }
  
+
+//to hide index info
+
+function info(){
+  var text=document.getElementById('text')
+  var console=document.getElementById('console')
+  text.style.display="none"
+  console.style.display="none"
+}

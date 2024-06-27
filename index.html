@@ -10,60 +10,24 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
    <style>
-      #content{
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-   
-      }
-      @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  #name{
-    margin-top: 4%;
-  }
- 
-.console-container {  
-  font-family:Khula;
-  font-size:2em;
-  text-align:center;
-  height:400px;
-  margin-top: 10%;
-  width:60%;
-  display:block;
-  position:absolute; 
-  top:0;
-  bottom:0;
-  left:19%;
-  right:0;
+     #content{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
 
- 
-}
-.console-underscore {
-   display:inline-block;
-  position:relative;
-  top:-0.14em;
-  left:10px;
-}
- 
-  .nav-item{
-    display: flex;
-    align-items: center;
   }
-.fa-solid{
-  color:gray;
+  @keyframes gradient {
+0% {
+  background-position: 0% 50%;
 }
-
-  
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
     </style>
   </head>
   <body onload="  consoleText(['Full Stack Web Developer', 'Android Developer', 'Graphic Designer','Transcriptionist'], 'text',['lightblue','tomato','rebeccapurple']);
@@ -73,7 +37,7 @@
     <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Gouri Bhise</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button onclick="info()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -120,7 +84,7 @@
 </div> 
 <div class="row">
   
-  <footer>&copy; 2024 All rights reserved
+  <footer id="footer">&copy; 2024 All rights reserved
     
     <ul class="navbar-nav footlinks">
       <li class="nav-item text-center">
