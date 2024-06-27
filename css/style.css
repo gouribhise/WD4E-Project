@@ -25,12 +25,17 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-weight:500;
    
   }
 
   .navbar-nav>li{
     margin-right:40px;
     
+    
+  }
+  .nav-link{
+    color:white;
   }
   .fa-solid{
     color:white;
@@ -43,11 +48,15 @@ body{
   
   .active, .nav-link:active {
     background-color: #DC9E82;
+    color:black;
    
     
     border-radius: 10px;
   }
- 
+ .active{
+  color:black !important;
+  font-weight: bold;
+ }
   
   .nav-pills>.nav-item>.nav-link{
     color: black;
@@ -76,6 +85,7 @@ body{
   }
   .service-info{
     margin-left: 5%;
+    width:100vw;
     
   }
 
@@ -87,9 +97,41 @@ body{
   }
 
   .btn{
-    background-color: #9C0D38
+    background-color: #9C0D38;
+    font-weight: bold;
   }
 
   label{
-    font-weight:500
+    font-weight:500;
+    color: #9C0D38;
+    
+  }
+
+  .card-title{
+    color: #9C0D38
+
+  }
+  footer{
+    background-color: #9C0D38;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+
+  }
+
+  .footlinks{
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+body{
+  background-color: red;
+}
+.outlinks{
+  display: none;
+}
+.footlinks{
+    display: block;
+    margin-left:20%;
+    
+}
   }
